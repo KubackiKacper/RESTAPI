@@ -12,8 +12,8 @@ using RESTAPI_Backend.Data;
 namespace RESTAPI_Backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250427172039_first")]
-    partial class first
+    [Migration("20250428184531_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
